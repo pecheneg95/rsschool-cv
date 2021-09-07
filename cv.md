@@ -38,13 +38,10 @@ I am 27 years old, married, I have a daughter. I work in the construction indust
 
 # Code Examples
 
-```
-function highAndLow(numbers){
-
+```javascript
+function highAndLow(numbers) {
   let array=numbers.split(' ');
-
-  return (Math.max.apply(Math,array) + ' ' + (Math.min.apply(Math,array)));
-
+  return Math.max.apply(Math, array) + ' ' + Math.min.apply(Math, array);
 }
 ```
 
