@@ -1,4 +1,75 @@
-.photo{
-    width:400px;
-    height:540px;
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #009999;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 1800px;
+}
+
+.photo {
+    width: 380px;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 380px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: black;
+    width: 600px;
+    height: 1800px;
+}
+
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    font-size: 36px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
