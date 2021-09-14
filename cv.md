@@ -10,7 +10,7 @@
 
 * E-mail: pechera20@gmail.com
 
-* GitHub: [Artsiom Piachora](https://github.com/Pecheneg95)
+* GitHub: [Pecheneg95](https://github.com/Pecheneg95)
 
   
 
