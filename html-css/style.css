@@ -5,6 +5,7 @@ body {
     align-items: flex-start;
     align-content: flex-start;
     background-color: #009999;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 aside {
@@ -13,7 +14,7 @@ aside {
     background-color: black;
     color: white;
     width: 400px;
-    height: 1800px;
+    height: 1300px;
 }
 
 .photo {
@@ -27,20 +28,62 @@ aside {
 .contacts {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    font-size: 24px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.contacts-list li {
+    margin-bottom: 20px;
+}
+
+.contacts-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.skills-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 .skills {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+}
+
+.skills-list {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+.autocad {
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
 }
 
 .language {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.language-list li {
+    margin-bottom: 12px;
 }
 
 main {
@@ -49,7 +92,7 @@ main {
     background-color: orange;
     color: black;
     width: 600px;
-    height: 1800px;
+    height: 1300px;
 }
 
 section {
@@ -57,13 +100,11 @@ section {
     margin-right: 50px;
 }
 
-li {
-    margin-left: 20px;
-}
-
 .name {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     height: 200px;
     font-size: 36px;
 }
@@ -72,4 +113,50 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+section h3 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+}
+
+.footer-github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-github a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-github {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-rs_school {
+    width: 200px;
+    height: 100px;
+}
+
+.date-created {
+    font-size: 30px;
 }
